@@ -1,0 +1,164 @@
+.awesome-stylish_line{
+    width: 64px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 0 auto
+}
+.customers{
+    max-width: 1170px;
+    height: 325px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.comments{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.comment1{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 298px;
+    min-height: 50px;
+    
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+   
+    align-items: center;
+    position: relative;
+    margin: 27px;
+
+}
+.rectangle {
+    max-width: 298px;
+max-height: 110px;
+    background-color:#E2E2E2 ;
+    color:rgba(134, 135, 139, 1);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+}
+
+.jeremy{
+    text-align: right;
+
+    margin-left: 45px;
+
+}
+
+.triangle::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top: 20px solid #e2e2e2;
+    position: absolute;
+    bottom: -19px;
+    left: 40px;
+}
+
+.design{
+    width: 100%;
+    height: 325px;
+    margin-top: 180px;
+    background-image:url('../img/background 1.jpg');
+    background-size: cover;
+    display: flex;
+
+
+}
+.mask{
+    width: 100%;
+    height: 325px;
+    background: rgba(0, 0, 0, 0.55);
+}
+.stylish{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+
+}
+
+
+.section{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 34px;
+}
+
+ button{
+    font-family: Open Sans;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    width: 135px;
+    height:42px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+     margin-top: 25px;
+}
+ button:hover{
+     color: #0808ff;
+ }
+
+ .supermen-foto img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+
+    .customer-speach{
+        display: flex;
+        justify-content: center;
+        margin-top: 22px;
+}
+
+.supermen-foto{
+    width: 70px;
+    height: 70px;
+}
+.customer-name{
+    font-family: "OpenSans-Regular","Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(51, 51, 51, 1);
+    
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.customers-job{
+    font-family: "OpenSans-Regular","Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(134, 135, 139, 1);
+    margin: 0px;
+}
