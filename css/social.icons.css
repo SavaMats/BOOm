@@ -1,9 +1,3 @@
-.section-container {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .social-media-section {
     background: #F8EFEF;
     padding: 0.1px;
@@ -39,7 +33,7 @@
      color: #86878B;     
 }
 
-.social-media-icons {
+.social-media-networks {
     text-align: center;
 }
 
@@ -55,23 +49,18 @@
     transform: scale(2.0);
 }
 
-
+@media (max-width: 950px) {
     .social-media-container {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
     .social-media-item {
-        padding-right: 15px;
-        margin: 14px 0px 17px 0px;
-        max-width: 350px;
+        text-align: center;
     }
     .social-media-networks-list a {
         margin-top: 5px;
         margin-bottom: 10px; 
     }
-    ul li {list-style: none;}
-
-    ul.social-media-networks-list li {
-        display: inline;    
-    }
+}
