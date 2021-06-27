@@ -5,7 +5,7 @@ footer {
 
 .footer-social-networks {
     margin-top: 30px;
-    margin-bottom: 18px;
+    
     text-align: center;
 }
 
@@ -32,5 +32,10 @@ footer {
     line-height: 16px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
+}
+.download-button {
+color: rgba(255, 255, 255, 1);
+
+
 }
 

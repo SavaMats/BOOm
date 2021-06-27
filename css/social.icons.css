@@ -11,7 +11,7 @@
 }
 
 .social-media-item {
-    margin: 14px 0px 17px 0px;
+    
     max-width: 350px;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .social-media-networks-list a:hover {
-    color: #D98943;
+    
     transform: scale(2.0);
 }
 
@@ -63,4 +63,25 @@
         margin-top: 5px;
         margin-bottom: 10px; 
     }
+}.facebook :hover{
+    color: #4267B2;
 }
+.twitter :hover{
+    color: #1DA1F2;
+}
+.google :hover{
+    color: #db4a39;
+}
+.pinterest :hover{
+    color: #E60023;
+}
+.instagram :hover{
+    color:#8a3ab9;
+}
+.stumbleupon :hover{
+    color:#f74425 ;
+}
+.rss :hover{
+    color:#f26522;
+}
+

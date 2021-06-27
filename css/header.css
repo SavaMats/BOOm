@@ -34,9 +34,7 @@ ul.header-menu-list li {
     cursor: pointer;
     text-align: center;
     margin: 0px 20px;
-    border-left: 3px solid transparent;
     border-bottom: 3px solid transparent;
-    border-right: 3px solid transparent;
     text-decoration: none;
 }
 
@@ -72,25 +70,7 @@ ul.header-menu-list li {
 
 .header-menu-list a:hover {
     color: #D98943;
-    border-left-color: #D98943;
     border-bottom-color: #D98943;
 }
 
 
-@media (max-width: 950px) {
-    .header-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .header-logo {
-        text-align: center;
-    }
-
-    .header-menu-list a{
-        margin-top: 25px;
-        margin-bottom: 25px; 
-    }
-}
