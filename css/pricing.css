@@ -1,36 +1,35 @@
 .pricing{
-    max-width: 1170px;
-    
+    max-width: 1170px; 
     background-color: #F5F5F5;
     margin:0 auto;
-padding-top: 60px;
-    padding-bottom:50px ;
+    padding-top: 80px;
+    padding-bottom: 60px ;
 }
 
 
 
 .blocks{
+ 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-
+  flex-direction: row;
+  
 }
 
-.column1{
-  display: flex;
-  flex-direction: column;
-}
-.column2{
-
+.column{
     display: flex;
     flex-direction: column;
+    align-items:center;
+    margin: 20px;
+    transition: all 0.25s ease 0.2s;
 }
-.column3{
-    display: flex;
-    flex-direction: column;
-}
+
+
 
 .grey-back{
     background-color: #F5F5F5;
+    width: 100%;
 }
 
 .text{
