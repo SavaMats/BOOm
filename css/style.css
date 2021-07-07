@@ -25,14 +25,6 @@
     text-align: center;
 }
 
-.section-title::after {
-    content: "";
-    display: block;
-    margin:34px auto;
-    width: 64px;
-    height: 2px;
-    background-color: #D98943;
-}
 
 .section-description {
     font-family: "OpenSans-Regular","Arial", sans-serif;

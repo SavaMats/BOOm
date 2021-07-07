@@ -8,6 +8,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
+    margin-bottom: 17px;
 }
 
 .social-media-item {
@@ -65,23 +67,33 @@
     }
 }.facebook :hover{
     color: #4267B2;
+    transition-duration: 0.2s;
 }
 .twitter :hover{
     color: #1DA1F2;
+    transition-duration: 0.2s;
 }
 .google :hover{
     color: #db4a39;
+    transition-duration: 0.2s;
 }
 .pinterest :hover{
     color: #E60023;
+    transition-duration: 0.2s;
 }
 .instagram :hover{
     color:#8a3ab9;
+    transition-duration: 0.2s;
 }
 .stumbleupon :hover{
-    color:#f74425 ;
+    color:#f74425;
+    transition-duration: 0.2s;
 }
 .rss :hover{
     color:#f26522;
+    transition-duration: 0.2s;
 }
 
+@media (max-width: 1050px) 
+  
+     

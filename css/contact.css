@@ -1,15 +1,12 @@
-.contact{
-        max-width: 1170px;
-        margin:0 auto;
+.contact{  
+    max-width: 1170px;
+    margin:0 auto;
         margin-bottom: 40px;
         margin-top: 80px;
+        padding: 0 15px;
     
 }
 
-.contact-section {
-    background-color: white;
-    padding-bottom: 44px; 
-}
 
 .contact-head {
     margin-bottom: 95px;
@@ -20,6 +17,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 -15px;
+    margin-top: 20px;
     padding:51px 12px; 
 }
 
@@ -64,7 +62,7 @@
 .contact-button {
     flex: 0 1 100%;
     text-align: center;
-    margin: 0 15px;    
+       
 }
 
 .contact-button_send {
